@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Blur View Project</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_static_blur">StaticBlurActivity</string>
+    <string name="title_activity_live_blur">LiveBlurActivity</string>
+    <string name="title_activity_base_test">BaseTestActivity</string>
+    <string name="long_text" formatted="false">本周四的第二财季电话会议也不例外，谷歌高管通过一系列数字来说明YouTube如何冲击着传统电视。
+谷歌首席业务官(CBO)奥米德·柯德斯塔尼(OmidKordestani)称：“与美国任何一家有线电视网络相比，YouTube吸引的18岁至49岁人群最多。”
+YouTube不仅主导了该年龄段人群，更重要的是，这些人群像对待电视一样对待YouTube。
+柯德斯塔尼说：“第二季度YouTube用户数量同比增长了3倍，他们访问YouTube主页就好像是打开电视机一样。一旦用户来到YouTube，每次观看视频的时间也更长。至于移动平台，现在每次访问的观看时间超过40分钟，同比增长了50%多。”
+对于YouTube当前所处的生命阶段，上述事实意义重大。谷歌想强调的是：YouTube已经不仅仅是视频仓库，在观看之前人们需要知道他们想要看什么。如今的YouTube正成为一个发现平台，扮演着内容管理者的角色。YouTube正在模仿电视机上的数字节目单。
+由于用户逐渐向在线视频平台转移，广告收入也随之而来。
+每一年谷歌都会模仿电视网络的广告预售活动“upfront”，推出自己的“BrandCast”活动。该活动中，YouTube会请出一些大牌明星，展示其最新的广告产品，与世界各大品牌与广告商谈判，希望赢得他们的广告投资承诺。
+柯德斯塔尼说：“与去年同期相比，今年BrandCast在美国获得的投资承诺增长了3倍。第二季度在YouTube上投放视频广告的广告主数量同比增长了40%，前100大广告客户每位广告主的平均开支同比增长了60%。”
+相比之下，投资公司Jefferies  Co分析师约翰·简迪斯(JohnJanedis)本月早些时候曾表示，今年电视网络的“upfront”表现低于预期。
+谷歌CFO露丝·波拉特(RuthPorat)在电话会议也给出了清晰的信号：YouTube将向电视发起攻击。波拉特在电话会议中两次提到：“我们的工作重心就是要把更大一部分预算吸引到YouTube平台上。”
+谷歌宣称YouTube正在取代传统电视已经有一段时间了，但事实上，谷歌距离该目标还很遥远。
+调研机构尼尔森(Nielsen)数据显示，美国消费者每天观看近5个小时的电视节目，而每天通过计算机或智能手机上网的时间仅为看电视时间的一半。
+因此，当前电视仍是广告主的最大投资平台。媒体机构Carat预计，去年全球电视广告开支为2300亿美元。而媒体传播公司实力传播(ZenithOptimedia)数据显示，去年全球在线视频广告开支仅为110亿美元。当然，在线视频广告的发展速度较快，预计2014年至2017年的年复合增长率将达到29%。即便如此，届时的230亿美元规模也只是当前电视广告开支的1/10。</string>
+</resources>

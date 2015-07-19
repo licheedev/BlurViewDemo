@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.licheedev.blurviewproject.LiveBlurActivity">
+
+    <include layout="@layout/layout_control" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+        
+        
+        <com.licheedev.blurview.PartBlurView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/blurView1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="53dp"
+            app:blurRadius="3"
+            app:downSampleFactor="9"
+            app:overlayColor="#22ff0000"
+            />
+
+        <com.licheedev.blurview.PartBlurView
+            android:id="@+id/blurView2"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="43dp"
+            />
+        
+    </RelativeLayout>
+
+</LinearLayout>

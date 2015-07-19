@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout style="@style/ControlLine">
+
+        <TextView
+            android:id="@+id/tvBlurRadius"
+            style="@style/SeekBarLineText"
+            android:text="模糊半径:0" />
+
+        <SeekBar
+            android:id="@+id/sbBlurRadius"
+            style="@style/Seekbar" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/ControlLine">
+
+        <TextView
+            android:id="@+id/tvDownSample"
+            style="@style/SeekBarLineText"
+            android:text="样本因数:1" />
+
+        <SeekBar
+            android:id="@+id/sbDownSample"
+            style="@style/Seekbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <View
+            android:id="@+id/colorView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000" />
+
+        <Button
+            android:id="@+id/btnColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="颜色:#00000000" />
+
+    </LinearLayout>
+
+</LinearLayout>
